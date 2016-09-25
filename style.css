@@ -1,0 +1,46 @@
+body,div,html,iframe,marquee,span{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}marquee{display:block}body{line-height:1;overflow:hidden;}
+
+#universe {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  background-color: black;
+}
+
+#overlay {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+}
+
+#kepler{
+  position: absolute;
+  z-index: 999;
+  top: 510px;
+  left: 930px;
+  height: 60px;
+  width: 60px;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 0px 40px black;
+  border-radius: 100px;
+}
+
+.quarter {
+  position: absolute;
+  width: 960px;
+  height: 540px;
+}
+
+.wraptl{top:0;left:0}
+.wraptr{top:0;right:0}
+.wrapbl{bottom:0;left:0}
+.wrapbr{bottom:0;right:0}
+
+.horiz{width: 960px;}
+.verti{height: 540px;}
+
+.star {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 0px 8px white;
+  border-radius: 100px;
+}
